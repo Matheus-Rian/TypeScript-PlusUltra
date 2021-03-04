@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // Any - Qualquer coisa/Sem Tipagem
 // Utilize any em ultimo caso
 function showMessage(msg: any) {
