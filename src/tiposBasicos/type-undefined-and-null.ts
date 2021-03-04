@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 //undefined
 
 let x; //Undefined - Foi declarado, mas não foi inicializado.
