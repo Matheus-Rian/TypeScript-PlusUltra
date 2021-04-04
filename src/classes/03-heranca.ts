@@ -19,7 +19,7 @@ export class Pessoa {
   }
 }
 
-//Herança relação de É ou um.
+//Herança(extends) relação de É ou um.
 //Aluno é uma pessoa, gato é um animal...
 export class Aluno extends Pessoa {
   getNomeCompleto(): string {
