@@ -1,5 +1,9 @@
 // Associaçào fraca: O escritor não depende de uma ferramenta.
 // A classe não depende uma da outra para funcionar.
+
+// * Dependency inversion
+// * É melhor fazer uma dependência de uma classe para um contrato(abstract)
+// * Do que uma classe para uma classe concreta.
 export class Escritor {
   private _ferramenta: Ferramenta | null = null;
   constructor(private _nome: string) {}
