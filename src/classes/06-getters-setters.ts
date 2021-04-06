@@ -34,7 +34,9 @@ export class Pessoa {
 const pessoa = new Pessoa('Matheus', 'Rian', 18, '123.456.789-01');
 pessoa.setCpf('123.456.789-00');
 console.log(pessoa.getCpf());
+// ---
 // * Quando é colocado o recebe(=) estou chamando o atributo de set do nome.
 pessoa.nome = 'Rian';
+// ----
 // * Quando eu querer apenas acessar o valor de nome é chamado o atributo de get do nome.
 console.log(pessoa.nome);
