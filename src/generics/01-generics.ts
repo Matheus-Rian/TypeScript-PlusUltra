@@ -1,3 +1,5 @@
+// Introdução aos genéricos
+
 type Callbackfn<U> = (value: U, index?: number, array?: U[]) => boolean;
 
 // <T> - Tipo genérico
