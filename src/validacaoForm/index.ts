@@ -1,2 +1,2 @@
 // import './form-control';
-import '../exercicio-video/exercicio-video';
+import '../exercicios/exercicio-video';
